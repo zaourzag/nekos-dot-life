@@ -1,4 +1,4 @@
-const {get} = require('https');
+const {get} = require('@aero/http');
 const {URL, URLSearchParams} = require('url');
 const endpoints = require('./endpoints.json');
 
